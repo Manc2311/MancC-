@@ -10,8 +10,8 @@ class demo
 
 
   
-};                                     //if function defines is out of class then it is must to give inline keyword
-                                          //constructor can't be inline its not a good programming practice
+};                                  
+                                         
   int demo:: add(int no1,int no2)    
     {
         int ans = 0;
