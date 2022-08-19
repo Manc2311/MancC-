@@ -22,15 +22,15 @@ class Demo
 
 int main()
 {
-     Demo obj;                      // Static object creation
+     Demo obj;                   
 
      Demo *ptr = NULL;
 
-     ptr = new Demo;        // Dynamic object creation
+     ptr = new Demo;        
 
-     obj.fun();     // Direct accessing operator
+     obj.fun();    
 
-     ptr->fun();        // Indirect accessing operator
+     ptr->fun();       
 
      delete ptr;
 
