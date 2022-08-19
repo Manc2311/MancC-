@@ -13,7 +13,7 @@ class demo
         cout<<"incide fun\n";
     }
 
-      void fun(int no)  //overloaded defination  -- ekach class mdhe same navache don  function
+      void fun(int no)  
     {
         cout<<"incide gun\n";
     }
