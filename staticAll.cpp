@@ -9,7 +9,7 @@ class demo
     int i,j;
     static int x;
 
-    demo(int a = 10,int b = 24)   //dfault parameterised constructor
+    demo(int a = 10,int b = 24)  
     {
 
         cout<<"in constructor\n";
