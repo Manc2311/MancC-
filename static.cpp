@@ -10,7 +10,7 @@ class demoo
 
     demoo()
     {
-        cout<<"in default con\n";  //static mdhe obj2 ka create kela
+        cout<<"in default con\n"; 
         i = 10;
         j = 20;
 
