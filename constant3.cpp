@@ -7,10 +7,10 @@ class demo
     int i;
      const int k ;
 
-    demo():k(30)  //memeber intialization
+    demo():k(30) 
     {
         i = 10;
-        //k = 90;  intialize gives error 
+        //k = 90;  
     }
 
     demo(int a,int b):k(b)
