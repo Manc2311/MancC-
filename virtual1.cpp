@@ -26,8 +26,8 @@ int main()
     base *bp = new base();
     derived *dp = new derived();
 
-base *bp1 = new derived(); //upcasting     8 byets fetch 16 byte hence it is upcasting kamiwala jastv walyala access krto
-derived *dp1 = new base(); //downcasting    16 byte fetch 8 bytes  jast wala kami walyala access krto   //downcasting la error yeto 
+base *bp1 = new derived(); //upcasting     
+derived *dp1 = new base(); //downcasting   
 
     return 0 ;
 }
