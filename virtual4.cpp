@@ -39,7 +39,7 @@ class derived:public base
 int main()
 {
        
-base *bp = new derived(); //upcasting     8 byets fetch 16 byte hence it is upcasting kamiwala jastv walyala access krto
+base *bp = new derived(); //upcasting   
 bp->fun();
 bp->gun();
 //bp->sun(); //not allowed
@@ -53,4 +53,3 @@ return 0 ;
 }
 
 
-//pointer size 4 ahe mhnun ans 12 ani 20 yetyt
