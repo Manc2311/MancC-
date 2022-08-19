@@ -5,13 +5,13 @@ class demo
 {
     public:
     int i;
-    //const int k = 10;  //its not good programming practice 
+    //const int k = 10;  
      const int k ;
 
-    demo():k(30)  //memeber intialization
+    demo():k(30)  
     {
         i = 10;
-        //k = 90;  intialize gives error 
+        //k = 90;  
     }
 };
 
