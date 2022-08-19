@@ -11,7 +11,7 @@ public:
 void fun();
 
 };
-class demo {   //house         e.g of friend enter in house
+class demo {   
     public:
     int i;
 
@@ -28,7 +28,7 @@ class demo {   //house         e.g of friend enter in house
         j= 34;
     }
 
-    friend void  hello::fun();  //declared 
+    friend void  hello::fun(); 
 };
 
 void hello::fun()   //friend
@@ -47,7 +47,7 @@ int main ()
 hello hobj;
 hobj.fun();
 
-   // fun();   for nacked fun void fun 
+   // fun();  
     //demo obj;
 
     return 0;
